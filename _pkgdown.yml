@@ -1,0 +1,69 @@
+url: https://traderverse.github.io/tradeio/
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  bslib:
+    primary: "#0054a6"
+    
+home:
+  title: "tradeio • Data Acquisition for R"
+  description: >
+    Universal data acquisition and standardization for financial markets.
+    Fetch data from Yahoo Finance, Alpha Vantage, CSV, and more.
+
+navbar:
+  structure:
+    left: [home, reference, articles, tutorials, news]
+    right: [search, github]
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    reference:
+      text: Reference
+      href: reference/index.html
+    articles:
+      text: Articles
+      menu:
+      - text: Getting Started
+        href: articles/getting-started.html
+    news:
+      text: Changelog
+      href: news/index.html
+    github:
+      icon: fab fa-github fa-lg
+      href: https://github.com/Traderverse/tradeio
+
+reference:
+- title: "Data Fetching Functions"
+  desc: "Fetch data from various sources"
+- contents:
+  - fetch_prices
+  - fetch_yahoo
+  - fetch_alpha_vantage
+  - fetch_csv
+  
+- title: "Data Standardization"
+  desc: "Standardize and normalize data"
+- contents:
+  - standardize_prices
+  - normalize_tickers
+  
+- title: "Data Structures"
+  desc: "Core data structures"
+- contents:
+  - market_tbl
+  
+- title: "Utilities"
+  desc: "Helper functions"
+- contents:
+  - validate_data
+  - fill_missing
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with
+  components:
+    developed_by: "Developed by the Traderverse team"
+    built_with: "Built with [pkgdown](https://pkgdown.r-lib.org/)"

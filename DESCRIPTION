@@ -1,0 +1,32 @@
+Package: tradeio
+Title: Data Acquisition and Normalization for TradingVerse
+Version: 0.1.0
+Authors@R: 
+    person("TradingVerse", "Core Team", , "tradingverse@example.com", role = c("aut", "cre"))
+Description: Provides unified interface for fetching financial market data from 
+    multiple sources including Yahoo Finance, Alpha Vantage, FRED, and local files.
+    Automatically normalizes data into the TradingVerse market_tbl format with proper
+    timezone handling, missing data treatment, and corporate actions adjustments.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    tibble,
+    dplyr,
+    lubridate,
+    httr,
+    jsonlite,
+    readr,
+    quantmod,
+    zoo,
+    rlang
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    tradeengine
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+URL: https://github.com/tradingverse/tradeio
+BugReports: https://github.com/tradingverse/tradeio/issues

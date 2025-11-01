@@ -37,7 +37,7 @@ navbar:
 reference:
 - title: "Data Fetching Functions"
   desc: "Fetch data from various sources"
-- contents:
+  contents:
   - fetch_prices
   - fetch_yahoo
   - fetch_alpha_vantage
@@ -45,18 +45,18 @@ reference:
   
 - title: "Data Standardization"
   desc: "Standardize and normalize data"
-- contents:
+  contents:
   - standardize_prices
   - normalize_tickers
   
 - title: "Data Structures"
   desc: "Core data structures"
-- contents:
+  contents:
   - market_tbl
   
 - title: "Utilities"
   desc: "Helper functions"
-- contents:
+  contents:
   - validate_data
   - fill_missing
 

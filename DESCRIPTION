@@ -27,5 +27,10 @@ Suggests:
     rmarkdown,
     tradeengine
 Config/testthat/edition: 3
+Remotes:
+    Traderverse/tradeengine,
+    Traderverse/tradefeatures,
+    Traderverse/tradeviz,
+    Traderverse/trademetrics
 URL: https://github.com/tradingverse/tradeio
 BugReports: https://github.com/tradingverse/tradeio/issues
